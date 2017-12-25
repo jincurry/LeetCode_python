@@ -15,3 +15,9 @@ class Solution:
             else:
                 sum += mapping[s[i]]
         return sum
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.romanToInt("IV"))
+    print(solution.romanToInt("VI"))
+    print(solution.romanToInt("MMM"))
