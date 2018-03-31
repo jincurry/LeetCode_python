@@ -31,7 +31,7 @@ class Solution:
             print(k, w)
 
         # just like we do in isomorphic problem.
-        return (len(set(pattern)) == len(set(slist)) == len(set(zip(pattern, slist))))
+        return len(set(pattern)) == len(set(slist)) == len(set(zip(pattern, slist)))
 
 
 if __name__ == '__main__':
