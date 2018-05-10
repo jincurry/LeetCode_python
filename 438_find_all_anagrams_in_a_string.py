@@ -75,6 +75,7 @@ class Solution:
                 res.append(j)
         return res
 
+
 if __name__ == '__main__':
     solution = Solution()
     print(solution.findAnagrams('cbaebabacd', 'abc'))
