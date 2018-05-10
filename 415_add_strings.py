@@ -7,6 +7,8 @@
 # Both num1 and num2 does not contain any leading zero.
 # You must not use any built-in BigInteger library or convert the inputs to integer directly.
 
+# 解决办法就是使用ord(‘9’) - ord('0')获取对应位置的数字
+
 
 class Solution:
     def addStrings(self, num1, num2):
