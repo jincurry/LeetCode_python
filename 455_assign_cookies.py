@@ -41,7 +41,7 @@ class Solution:
 
         result, i = 0, 0
         for j in range(len(s)):
-            if i == len(s):
+            if i == len(g):
                 break
             if s[j] >= g[j]:
                 result += 1
