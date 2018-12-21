@@ -11,7 +11,7 @@
 #  list of count-paired domains, (in the same format as the input, and in any order),
 # that explicitly counts the number of visits to each subdomain.
 
-# Example 1:
+# Example 1
 # Input:
 # ["9001 discuss.leetcode.com"]
 # Output:
