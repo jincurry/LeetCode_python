@@ -61,7 +61,7 @@ class MyLinkedList:
         :rtype: void
         """
         if index >= 0 and index <= len(self.linkedList):
-        self.linkedList.insert(index, val)
+            self.linkedList.insert(index, val)
 
     def deleteAtIndex(self, index):
         """
